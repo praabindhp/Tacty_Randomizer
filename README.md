@@ -1,2 +1,2 @@
-# Tacty_Randomizer
-Program For Tacty Randomizer
+# Tactii_Randomizer
+Program For Tactii Randomizer
