@@ -47,7 +47,7 @@
 				<img src="static/img-01.jpg" alt="IMG" onClick="history.go(0);">
 			</div>
 
-			<form class="contact1-form validate-form" method="POST">
+			<form class="contact1-form validate-form">
 				<span class="contact1-form-title">
 					<b>Tacty Randomizer</b>
 				</span>
@@ -65,7 +65,7 @@
 					</span>
 				</div>
 
-				<div class="wrap-input1 validate-input text-center" data-validate = "Objects are required">
+				<div class="wrap-input1 validate-input text-center" data-validate = " are required">
 					{% for item in randomlist %}
 					<h5>{{item}}</h5>
 					<br>
@@ -73,7 +73,7 @@
 					<span class="shadow-input1"></span>
 				</div>
 				<div class="container-contact1-form-btn">
-					<button class="contact1-form-btn" onclick="history.back()">
+					<button class="contact1-form-btn" window.location=window.location;>
 						<span class="contact1-form-text">
 							<b>Generate New</b>
 						</span>
