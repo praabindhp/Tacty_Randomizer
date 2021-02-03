@@ -23,9 +23,6 @@ def get_value():
     print(listRandom)
     return render_template('results.html', randomlist=listRandom, num=num)
 
-@app.route('/results', methods=["POST"])
-def results():
-    render_template('results.html')
 
 if __name__=='__main__':
     app.debug=True
