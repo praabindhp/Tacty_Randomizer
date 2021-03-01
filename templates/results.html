@@ -38,6 +38,9 @@
 	.contact1-form-text{
 		font-family: 'Ubuntu', sans-serif;
 	}
+	.card{
+		padding-right: 0;
+	}
 </style>
 <body>
 
@@ -66,19 +69,25 @@
 				</div>
 
 				<div class="wrap-input1 validate-input text-center" data-validate = " are required">
-					{% for item in randomlist %}
-					<h5>{{item}}</h5>
-					<br>
-					{% endfor %}
+					
+					<div class="card" >
+						<div class="card-body">
+							{% for item in randomlist %}
+								<li>{{item}}</li>
+							{% endfor %}
+						</div>
+					</div>
+
+						
 					<span class="shadow-input1"></span>
 				</div>
 
 				<div class="container-contact1-form-btn mt-2 mb-2">
-					<button class="contact1-form-btn" onclick="window.history.back();">
+					<a href="javascript:history.go(-1);" class="contact1-form-btn">
 						<span class="contact1-form-text">
 							<b>Edit Item(s)</b>
 						</span>
-					</button>
+					</a>
 				</div>
 
 				<div class="container-contact1-form-btn">
@@ -114,6 +123,9 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-23581568-13');
+
+
+
 </script>
 
 <!--===============================================================================================-->
