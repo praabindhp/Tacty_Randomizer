@@ -69,7 +69,7 @@
 				</div>
 
 				<div class="wrap-input1 validate-input text-center" data-validate = " are required">
-					
+					<!-- UI is changed here. Card is added so that no issue while copying. -->
 					<div class="card" >
 						<div class="card-body">
 							{% for item in randomlist %}
@@ -83,6 +83,7 @@
 				</div>
 
 				<div class="container-contact1-form-btn mt-2 mb-2">
+					<!-- browser issue is solved here by changing button tag into anchor tag -->
 					<a href="javascript:history.go(-1);" class="contact1-form-btn">
 						<span class="contact1-form-text">
 							<b>Edit Item(s)</b>
