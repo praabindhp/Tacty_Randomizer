@@ -3,7 +3,7 @@ version: 2.1
 # Common
 #########
 orbs:
-  heroku: circleci/heroku@1.2.5
+  heroku: circleci/heroku@1.0.1
 ############
 # Workflows
 ############

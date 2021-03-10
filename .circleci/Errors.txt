@@ -1,0 +1,15 @@
+** On entry to DGEBAL parameter number  3 had an illegal value 
+ ** On entry to DGEHRD  parameter number  2 had an illegal value
+ ** On entry to DORGHR DORGQR parameter number  2 had an illegal value
+  File "C:\Windows\System32\modellab\lib\site-packages\numpy\__init__.py", line 305, in <module>
+    _win_os_check()
+  File "C:\Windows\System32\modellab\lib\site-packages\numpy\__init__.py", line 302, in _win_os_check                                         y", line 305, in <
+    raise RuntimeError(msg.format(__file__)) from None
+RuntimeError: The current Numpy installation ('C:\\Windows\\System32\\modellab\\lib\\site-packages\\numpy\\__init__.py') fails to pass a sanity check due to a bug in the windows runtime.
+
+Sol :   numpy==1.19.3; platform_system == "Windows"
+        numpy>=1.19.4; platform_system == "linux"
+
+ValueError: Expected 2D array, got 1D array instead: array=['7.4963524']. Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+
+Sol : Values in series and not reshaping in list
