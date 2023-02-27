@@ -1,5 +1,5 @@
 # Tactii_Randomizer
-Program For Tactii Randomizer
+Program For Tacty Randomizer
 
 This Is A Web Apllication For Generating Random Ordered Objects From The List
 
@@ -9,4 +9,4 @@ The User Will Be Prompted For :
   
   2. Objects To Be Entered
 
-Built For Tactii
+Built For Tact Labs
